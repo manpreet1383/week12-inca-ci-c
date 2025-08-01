@@ -9,7 +9,8 @@
     "lint": "next lint",
     "test": "jest --watchAll",
     "cypress": "cypress open",
-    "cypress:headless": "cypress run"
+    "cypress:headless": "cypress run",
+    "ci:test": "jest"
   },
   "dependencies": {
     "iron-session": "^7.0.6",
